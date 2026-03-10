@@ -1,0 +1,8 @@
+document.write("aula 01 - exercicio 6")
+var quantidade = parseFloat(prompt("digite a quantidade do produto"))
+var preco = parseFloat(prompt("digite o preço do produto"))
+var subtotal = (quantidade * preco)
+document.write("o subtotal é"+ subtotal )
+var desconto = (subtotal * 0.10)
+document.write("o desconto é"+ desconto)
+var total = ( subtotal - desconto)
